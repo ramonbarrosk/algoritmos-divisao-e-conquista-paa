@@ -129,19 +129,23 @@ int main(){
   Ponto ponto1 = resultado.first.first;
   Ponto ponto2 = resultado.first.second;
 
-  cout << "---------------\n";
-  cout << "Saída\n";
-  cout << "---------------\n";
-  cout << "Ponto1:\n";
-  cout << "x: " << ponto1.x << endl;
-  cout << "y: " << ponto1.y << endl;
+  if (n == 1){
+    cout << "Como existe apenas um ponto, a menor distância é 0!\n";
+  } else {
+    cout << "---------------\n";
+    cout << "Saída\n";
+    cout << "---------------\n";
+    cout << "Ponto1:\n";
+    cout << "x: " << ponto1.x << endl;
+    cout << "y: " << ponto1.y << endl;
 
-  cout << "Ponto2:\n";
-  cout << "x: " << ponto2.x << endl;
-  cout << "y: " << ponto2.y << endl;
+    cout << "Ponto2:\n";
+    cout << "x: " << ponto2.x << endl;
+    cout << "y: " << ponto2.y << endl;
 
-  cout << "------\n";
-  cout << "Menor distancia:" << distancia << endl;
+    cout << "------\n";
+    cout << "Menor distancia:" << distancia << endl;
+  }
 
   return 0;
 }
