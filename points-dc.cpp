@@ -100,6 +100,7 @@ pair<pair<Ponto, Ponto>, double> points_dc(vector<Ponto>& pontos, int quantidade
 int main(){
   int n;
 
+  cout << "Digite a quantidade de pontos: ";
   cin >> n;
 
   vector<Ponto> pontos;
