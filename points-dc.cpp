@@ -130,8 +130,8 @@ int main(){
   Ponto ponto1 = resultado.first.first;
   Ponto ponto2 = resultado.first.second;
 
-  if (n == 1){
-    cout << "Como existe apenas um ponto, a menor distância é 0!\n";
+  if (n <= 1){
+    cout << "Entrada menor ou igual a 1 a menor distância é 0!\n";
   } else {
     cout << "---------------\n";
     cout << "Saída\n";
